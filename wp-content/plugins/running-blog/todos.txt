@@ -1,0 +1,6 @@
+Create custom post types:
+
+Reviews - needs rating custom field .. keep tryingt to figure this out
+Runs - regular post type with meta blocks
+Supplements - regular post type with meta blocks
+Diet - regular post type with meta blocks

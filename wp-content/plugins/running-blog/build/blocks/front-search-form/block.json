@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "running-blog/fromt-search-form",
+  "title": "Front Search Form",
+  "category": "widgets",
+  "description": "Adds the front search form",
+  "keywords": [
+    "search"
+  ],
+  "version": "1",
+  "textdomain": "running-blog",
+  "editorScript": "file:./index.js",
+  "attributes": {},
+  "style": "file:./index.css"
+}

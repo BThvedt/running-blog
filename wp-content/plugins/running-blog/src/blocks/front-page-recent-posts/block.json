@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json",
+  "apiVersion": 2,
+  "name": "running-blog/front-page-recent-posts",
+  "title": "Front Page Recent Posts",
+  "category": "text",
+  "description": "Adds a list of recent posts in the front page format",
+  "textdomain": "running-blog",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Recent Posts"
+    },
+    "count": {
+      "type": "number",
+      "default": 5
+    }
+  },
+  "editorScript": "file:./index.js"
+}

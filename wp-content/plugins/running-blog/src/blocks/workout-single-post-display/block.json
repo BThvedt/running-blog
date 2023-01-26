@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "running-blog/workout-single-post-display",
+  "title": "Workout Single Post Display",
+  "description": "The display for a single workout post",
+  "keywords": ["header"],
+  "version": "1",
+  "textdomain": "running-blog",
+  "editorScript": "file:./index.js",
+  "attributes": {},
+  "style": "file:./index.css"
+}

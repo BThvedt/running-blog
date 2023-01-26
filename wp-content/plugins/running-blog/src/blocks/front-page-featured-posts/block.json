@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json",
+  "apiVersion": 2,
+  "name": "running-blog/front-page-featured-posts",
+  "title": "Front Page Featured Posts",
+  "category": "text",
+  "description": "Adds a list of featured posts in the front page format",
+  "textdomain": "running-blog",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Featured Posts"
+    },
+    "count": {
+      "type": "number",
+      "default": 3
+    }
+  },
+  "editorScript": "file:./index.js"
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "running-blog/add-sidebar-stuff",
+  "title": "Review Stars",
+  "category": "widgets",
+  "description": "Adds stuff to sidebars",
+  "keywords": ["sidebar"],
+  "version": "1",
+  "textdomain": "running-blog",
+  "editorScript": "file:./index.js",
+  "style": "file:./index.css",
+  "usesContext": ["postId"]
+}

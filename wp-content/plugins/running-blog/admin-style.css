@@ -1,0 +1,78 @@
+#meal-textarea-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5em;
+  margin-top: 0.3em;
+  textarea {
+    width: 100%;
+  }
+}
+
+.rb-post-meta-row,
+.rb-post-meta-row-checkboxes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 1.5em;
+}
+
+.rb-post-meta-row .rb-align-left,
+.rb-post-meta-row-checkboxes .rb-align-left {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  flex-shrink: 0;
+}
+
+.rb-post-meta-row .rb-align-left .rb-post-meta-wrapper,
+.rb-post-meta-row-checkboxes .rb-align-left .rb-post-meta-wrapper {
+  margin-right: 4%;
+}
+
+.rb-post-meta-row .rb-post-meta-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-bottom: 1em;
+}
+
+.rb-post-meta-row-checkboxes .rb-post-meta-wrapper {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 1em;
+}
+
+.rb-post-meta-wrapper.small {
+  width: 22%;
+}
+
+.rb-post-meta-wrapper label {
+  margin-bottom: 0.5em;
+}
+
+.rb-post-meta-wrapper .postbox {
+  min-width: 0px;
+}
+
+.rb-post-meta-wrapper.single-checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 2em;
+}
+.rb-post-meta-wrapper.single-checkbox label {
+  margin-bottom: 0;
+  display: block;
+  margin-left: 0.5em;
+}
+.rb-post-meta-wrapper.single-checkbox input {
+  margin-bottom: 0;
+  display: block;
+}
+
+.toplevel_page_rb-options img {
+  transform: scale(0.7);
+  position: relative;
+  bottom: 7px;
+}

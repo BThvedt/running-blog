@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "running-blog/page-header",
+  "title": "Page Header",
+  "category": "text",
+  "description": "Adds header for Category",
+  "keywords": ["header"],
+  "version": "1",
+  "textdomain": "running-blog",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "content": {
+      "type": "string"
+    },
+    "showCategory": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "style": "file:./index.css"
+}

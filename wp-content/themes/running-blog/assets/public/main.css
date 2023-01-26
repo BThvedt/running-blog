@@ -1,0 +1,152 @@
+@charset "UTF-8";
+#nav-menu a {
+  padding: 0em 0.5em;
+  font-weight: bold;
+}
+#nav-menu a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* clears the ‘X’ from Internet Explorer */
+input[type="search"]::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+input[type="search"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+/* clears the ‘X’ from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+.article-title {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.marker {
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 0.2ch;
+}
+
+.handwriting {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  letter-spacing: 2px;
+}
+
+.article-blurb {
+  line-height: 1.35em;
+}
+
+.vignette-radial {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.15) 50%,
+    rgba(0, 0, 0, 0.4) 150%
+  );
+}
+
+.fade-on-hover {
+  transition: opacity 0.3s;
+}
+
+.fade-on-hover:hover {
+  opacity: 0;
+}
+
+.thumbnail-figure img {
+  transition: 0.15s all;
+}
+.thumbnail-figure:hover img {
+  transform: scale(1.07);
+}
+
+.header-image-inset-shadow {
+  box-shadow: inset 0px 75px 50px rgba(0, 0, 0, 0.25);
+}
+
+#front-page-search-block::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #94a3b8;
+  opacity: 1; /* Firefox */
+}
+#front-page-search-block:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #94a3b8;
+}
+#front-page-search-block::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #94a3b8;
+}
+
+#non-front-page-search-bar::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+#non-front-page-search-bar:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+}
+#non-front-page-search-bar::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #fff;
+}
+
+/* Post and page css */
+#post-content p,
+#page-content p,
+#chart-content p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+#post-content blockquote,
+#page-content blockquote,
+#chart-content blockquote {
+  text-indent: -1.5em;
+  font-style: italic;
+  font-size: 1.2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-color: #e5e7eb;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1em;
+  padding-left: 2em;
+}
+#post-content blockquote::before,
+#page-content blockquote::before,
+#chart-content blockquote::before {
+  content: open-quote;
+  font-size: 3em;
+}
+#post-content blockquote,
+#page-content blockquote,
+#chart-content blockquote {
+  quotes: "“" "”";
+}
+
+/* Post and page css */
+#post-content p:first-of-type::first-letter {
+  padding: 0 0.1em;
+  margin: 0 0.1em 0 0;
+  font-family: "times new roman";
+  font-size: 3em;
+  float: left;
+  line-height: 1;
+}

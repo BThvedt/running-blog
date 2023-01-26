@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "running-blog/graph-container",
+  "title": "Graph Container",
+  "category": "widgets",
+  "description": "Adds a graph Container",
+  "keywords": [
+    "search"
+  ],
+  "version": "1",
+  "textdomain": "running-blog",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Title"
+    },
+    "columns": {
+      "type": "number",
+      "default": 3
+    }
+  },
+  "style": "file:./index.css"
+}
